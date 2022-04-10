@@ -38,7 +38,7 @@ export const About = () => {
               borderWidth: 3,
               borderColor: '#1E1E1E',
             }}
-            source={require('../img/ilies_ouldmenouer.jpg')}
+            source={require('../img/photo.jpeg')}
           />
         </View>
         {/* <View style={{marginBottom: 10}}>
@@ -76,8 +76,8 @@ export const About = () => {
             Created by :
             <Text
               style={{color: '#1E1E1E'}}
-              onPress={() => Linking.openURL('https://github.com/ilyasxdz')}>
-              ilies Ouldmenouer
+              onPress={() => Linking.openURL('https://github.com/shahmehul53')}>
+               Mehul Shah
             </Text>
           </Text>
         </View>
@@ -87,8 +87,8 @@ export const About = () => {
             Contact me at :
             <Text
               style={{color: '#1E1E1E'}}
-              onPress={() => Linking.openURL('mailto:ilyasdzair1@gmail.com')}>
-              ilyasdzair1@gmail.com
+              onPress={() => Linking.openURL('mailto:shahmehul53@gmail.com')}>
+              shahmehul53@gmail.com
             </Text>
           </Text>
         </View>
